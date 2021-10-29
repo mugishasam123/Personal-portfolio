@@ -6,31 +6,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 @media (min-width: 992px) {
+  .img-b img:hover {
+    animation: zoominoutsinglefeatured 1s;
+  }
+  @keyframes zoominoutsinglefeatured {
+    0% {
+      transform: scale(.5, .5);
+    }
+    100% {
+      transform: scale(1, 1.2);
+    }
+  }
   .ndevu {
     width: 684px;
     height: 1px;
   }
-
   .shapo {
     width: 0;
     height: 0;
   }
-
   .radu {
     width: 0;
     height: 0;
   }
-
   .reverse {
     order: 2;
   }
-
   .reve {
     order: 1;
   }
-
   .work_main {
     margin: auto;
     width: 100%;
@@ -38,7 +43,6 @@
     margin-left: 10px;
     justify-items: center;
   }
-
   .contact-me {
     width: 100%;
     height: 846px;
@@ -47,35 +51,28 @@
     background-repeat: no-repeat;
     background-color: rgba(96, 112, 255, 1);
   }
-
   .tiyeri {
     display: flex;
     gap: 1rem;
   }
-
   .valu {
     width: 0;
   }
-
   body {
     background-color: #e5e5e5;
     width: 100%;
   }
-
   .cedro {
     margin-left: 90px;
   }
-
   .kitiyo {
     width: 12px;
     height: 6px;
   }
-
   .yann {
     display: flex;
     justify-content: space-between;
   }
-
   .about-me {
     width: 100%;
     background-color: white;
@@ -85,27 +82,22 @@
     gap: 12px;
     padding-left: 140px;
   }
-
   .resume {
     margin-left: 17px;
   }
-
   .karisa {
     padding-top: 40px;
   }
-
   .vava {
     display: flex;
     flex-direction: column;
     padding-top: 166px;
     padding-left: 3px;
   }
-
   .orient {
     position: relative;
     left: 560px;
   }
-
   #intro {
     width: 100%;
     height: 916px;
@@ -120,7 +112,6 @@
     margin-left: 120px;
     margin-right: 0;
   }
-
   #work_content {
     display: flex;
     flex-direction: column;
@@ -128,7 +119,6 @@
     padding-top: 48px;
     padding-left: 46px;
   }
-
   .carte {
     width: 1156px;
     height: 496px;
@@ -137,28 +127,23 @@
     background-color: white;
     margin: 0 auto;
   }
-
   .img-b {
     width: 544px;
     height: 448px;
     padding-top: 24px;
     padding-left: 24px;
   }
-
   .hugo {
     background-color: white;
   }
-
   #work {
     width: 1156px;
     height: 100%;
   }
-
   .soft {
     width: 1440px;
     background-color: white;
   }
-
   nav {
     width: 100%;
     margin: auto;
@@ -243,35 +228,28 @@
     padding-top: 44px;
     padding-left: 100px;
   }
-
   .anne {
     width: 0;
     height: 0;
   }
-
   .tiyeri {
     display: grid;
     gap: 1rem;
   }
-
   #work_content {
     width: 500px;
   }
-
   .carte {
     width: 700px;
     height: 500px;
   }
-
   .fazi {
     width: 0;
     height: 0;
   }
-
   .valu {
     width: 375px;
   }
-
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -284,26 +262,21 @@
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-
   .about-me {
     margin: 0 auto;
     width: 300px;
   }
-
   .kitiyo {
     width: 12px;
     height: 6px;
   }
-
   .yann {
     display: flex;
     justify-content: space-between;
   }
-
   .resume {
     margin-left: 17px;
   }
-
   .contact-me {
     display: flex;
     flex-direction: column;
@@ -317,15 +290,12 @@
     margin: 0 auto;
     margin-bottom: 8px;
   }
-
   .nav-menu.active {
     left: 0;
   }
-
   .nav-item {
     margin: 2.5rem 0;
   }
-
   .hamburger {
     display: block;
     cursor: pointer;
