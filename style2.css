@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@media (min-width: 992px) {
+  .ndevu {
+    width: 684px;
+    height: 1px;
+  }
+
+  .shapo {
+    width: 0;
+    height: 0;
+  }
+
+  .radu {
+    width: 0;
+    height: 0;
+  }
+
+  .reverse {
+    order: 2;
+  }
+
+  .reve {
+    order: 1;
+  }
+
+  .work_main {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    margin-left: 10px;
+    justify-items: center;
+  }
+
+  .contact-me {
+    width: 100%;
+    height: 846px;
+    background: url("images/hi.png");
+    background-size: 1440px 846px;
+    background-repeat: no-repeat;
+    background-color: rgba(96, 112, 255, 1);
+  }
+
+  .tiyeri {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .valu {
+    width: 0;
+  }
+
+  body {
+    background-color: #e5e5e5;
+    width: 100%;
+  }
+
+  .cedro {
+    margin-left: 90px;
+  }
+
+  .kitiyo {
+    width: 12px;
+    height: 6px;
+  }
+
+  .yann {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-me {
+    width: 100%;
+    background-color: white;
+    height: 700px;
+    border-radius: 0 100px 0 0;
+    display: flex;
+    gap: 12px;
+    padding-left: 140px;
+  }
+
+  .resume {
+    margin-left: 17px;
+  }
+
+  .karisa {
+    padding-top: 40px;
+  }
+
+  .vava {
+    display: flex;
+    flex-direction: column;
+    padding-top: 166px;
+    padding-left: 3px;
+  }
+
+  .orient {
+    position: relative;
+    left: 560px;
+  }
+
+  #intro {
+    width: 100%;
+    height: 916px;
+    background: url("images/bga.png");
+    background-size: 1397.4px 721.46px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 210px;
+    background-color: white;
+    margin-top: 56px;
+    margin-left: 120px;
+    margin-right: 0;
+  }
+
+  #work_content {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-top: 48px;
+    padding-left: 46px;
+  }
+
+  .carte {
+    width: 1156px;
+    height: 496px;
+    border-radius: 24px;
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  .img-b {
+    width: 544px;
+    height: 448px;
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+
+  .hugo {
+    background-color: white;
+  }
+
+  #work {
+    width: 1156px;
+    height: 100%;
+  }
+
+  .soft {
+    width: 1440px;
+    background-color: white;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: -1rem;
+    padding-left: 150px;
+    padding-right: 120px;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: blue;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(52, 69, 99, 1);
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #482ff7;
+}
+
+.nav-link:active {
+  color: pink;
+}
+
+.nav-logo {
+  color: rgba(96, 112, 255, 1);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-logo:hover {
+  color: black;
+}
+
+.nav-logo:active {
+  color: pink;
+}
+
+@media only screen and (max-width: 992px) {
+  .shapo {
+    padding-top: 44px;
+    padding-left: 100px;
+  }
+
+  .anne {
+    width: 0;
+    height: 0;
+  }
+
+  .tiyeri {
+    display: grid;
+    gap: 1rem;
+  }
+
+  #work_content {
+    width: 500px;
+  }
+
+  .carte {
+    width: 700px;
+    height: 500px;
+  }
+
+  .fazi {
+    width: 0;
+    height: 0;
+  }
+
+  .valu {
+    width: 375px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .about-me {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .kitiyo {
+    width: 12px;
+    height: 6px;
+  }
+
+  .yann {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .resume {
+    margin-left: 17px;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    background: rgba(96, 112, 255, 1) url("images/contact-form-shapes-mobile.png") 100% 60% no-repeat;
+    border-radius: 100px 0 0 0;
+    height: 860px;
+    padding-left: 24px;
+    padding-top: 140px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+}
