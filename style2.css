@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-@media (min-width: 700px) {
+@media (min-width: 992px) {
   .shapo {
     width: 0;
     height: 0;
@@ -227,7 +227,7 @@
   color: pink;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 992px) {
   .shapo {
     padding-top: 44px;
     padding-left: 100px;
@@ -275,7 +275,7 @@
   }
 
   .about-me {
-    margin-left: 100px;
+    margin: 0 auto;
     width: 300px;
   }
 
@@ -303,7 +303,7 @@
     height: 860px;
     padding-left: 24px;
     padding-top: 140px;
-    margin-left: 80px;
+    margin: 0 auto;
     margin-bottom: 8px;
   }
 
