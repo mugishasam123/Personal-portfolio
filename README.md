@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mugishasam123.github.io/desktop-vesrion-portfolio/)
 
 
 ## Getting Started
