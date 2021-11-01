@@ -8,6 +8,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @media (min-width: 992px) {
+  .img-b img:hover {
+    animation: zoominoutsinglefeatured 1s;
+  }
+
+  @keyframes zoominoutsinglefeatured {
+    0% {
+      transform: scale(0.5, 0.5);
+    }
+
+    100% {
+      transform: scale(1, 1.2);
+    }
+  }
+
   .ndevu {
     width: 684px;
     height: 1px;
@@ -208,10 +222,12 @@
   font-size: 15px;
   color: rgba(52, 69, 99, 1);
   font-weight: 500;
+  transition: all 0.4s ease-out;
 }
 
 .nav-link:hover {
   color: #482ff7;
+  font-size: 25px;
 }
 
 .nav-link:active {
@@ -224,10 +240,12 @@
   font-style: normal;
   font-size: 18px;
   font-weight: 700;
+  transition: all 0.4s ease-out;
 }
 
 .nav-logo:hover {
   color: black;
+  font-size: 25px;
 }
 
 .nav-logo:active {
