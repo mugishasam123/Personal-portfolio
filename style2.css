@@ -183,73 +183,64 @@
     top: -1rem;
     padding-left: 150px;
     padding-right: 120px;
+    background-color: white;
   }
-}
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.hamburger {
-  display: none;
-}
+  .hamburger {
+    display: none;
+  }
 
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: blue;
-}
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .nav-item {
+    margin-left: 5rem;
+  }
 
-.nav-item {
-  margin-left: 5rem;
-}
+  .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: rgba(52, 69, 99, 1);
+    font-weight: 500;
+    transition: all 0.4s ease-out;
+  }
 
-.nav-link {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  color: rgba(52, 69, 99, 1);
-  font-weight: 500;
-  transition: all 0.4s ease-out;
-}
+  .nav-link:hover {
+    color: #482ff7;
+    font-size: 25px;
+  }
 
-.nav-link:hover {
-  color: #482ff7;
-  font-size: 25px;
-}
+  .nav-link:active {
+    color: pink;
+  }
 
-.nav-link:active {
-  color: pink;
-}
+  .nav-logo {
+    color: rgba(96, 112, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.4s ease-out;
+  }
 
-.nav-logo {
-  color: rgba(96, 112, 255, 1);
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 700;
-  transition: all 0.4s ease-out;
-}
+  .nav-logo:hover {
+    color: black;
+    font-size: 25px;
+  }
 
-.nav-logo:hover {
-  color: black;
-  font-size: 25px;
-}
-
-.nav-logo:active {
-  color: pink;
+  .nav-logo:active {
+    color: pink;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -286,17 +277,33 @@
     width: 375px;
   }
 
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    background-color: #fff;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  #intro {
+    width: 375px;
+    margin: auto;
+    height: 630px;
+    position: relative;
+    padding-top: 40px;
+    background: url("images/ikon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .nav-logo {
+    color: rgba(96, 112, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.4s ease-out;
+  }
+
+  .nav-logo:hover {
+    color: black;
+    font-size: 25px;
+  }
+
+  .nav-logo:active {
+    color: pink;
   }
 
   .about-me {
@@ -332,12 +339,61 @@
     margin-bottom: 8px;
   }
 
+  nav {
+    width: 375px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 24px;
+    padding-right: 36px;
+    background-color: white;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(96, 112, 255, 0.85);
+    width: auto;
+    height: 100%;
+    padding-left: 150px;
+    flex-direction: column;
+    backdrop-filter: blur(6px);
+    gap: 0;
+    display: none;
+  }
+
+  .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+  }
+
+  .close {
+    float: right;
+    margin-right: 50px;
+  }
+
   .nav-menu.active {
     left: 0;
   }
 
   .nav-item {
     margin: 2.5rem 0;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: blue;
   }
 
   .hamburger {
