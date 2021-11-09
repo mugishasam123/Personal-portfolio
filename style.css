@@ -20,7 +20,7 @@
   background-color: #e5e5e5;
 }
 
-#title {
+.title {
   margin-left: 20px;
   margin-top: 100px;
   color: rgba(23, 43, 77, 1);
@@ -37,7 +37,7 @@
   justify-content: center;
 }
 
-#text2 {
+.text2 {
   margin-left: 24px;
   margin-right: 24px;
   color: rgba(52, 69, 99, 1);
@@ -46,7 +46,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-#social_menu {
+.social_menu {
   display: flex;
   justify-content: space-between;
   width: 200px;
