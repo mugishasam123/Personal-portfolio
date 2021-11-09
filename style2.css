@@ -109,7 +109,6 @@
     display: flex;
     gap: 12px;
     padding-left: 140px;
-    
   }
 
   .resume {
@@ -389,7 +388,6 @@
     float: right;
     margin-right: 150px;
     padding-top: 20px;
-
   }
 
   .nav-menu.active {
