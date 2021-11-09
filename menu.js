@@ -1,6 +1,6 @@
 const hamb = document.querySelector('.hamburger');
 
-const closebtn = document.querySelector('.close');
+const closebt = document.querySelector('.close');
 
 const first = document.querySelector('#intro');
 
@@ -18,7 +18,7 @@ hamb.addEventListener('click', () => {
 
 });
 
-closebtn.addEventListener('click', () => {
+closebt.addEventListener('click', () => {
    first.style.display = 'flex';
    menu.style.display = 'none';
   
