@@ -20,37 +20,7 @@
   background-color: #e5e5e5;
 }
 
-nav {
-  width: 375px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 28px;
-  padding-left: 24px;
-  padding-right: 36px;
-  background-color: white;
-}
-
-header nav a {
-  font-family: "Roboto", sans-serif;
-  color: #fff5e1;
-  font-size: 18px;
-  text-decoration: none;
-  align-self: center;
-}
-
-#intro {
-  width: 375px;
-  margin: auto;
-  height: 630px;
-  position: relative;
-  padding-top: 40px;
-  background: url("images/ikon.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#title {
+.title {
   margin-left: 20px;
   margin-top: 100px;
   color: rgba(23, 43, 77, 1);
@@ -67,7 +37,7 @@ header nav a {
   justify-content: center;
 }
 
-#text2 {
+.text2 {
   margin-left: 24px;
   margin-right: 24px;
   color: rgba(52, 69, 99, 1);
@@ -76,7 +46,7 @@ header nav a {
   font-family: "Poppins", sans-serif;
 }
 
-#social_menu {
+.social_menu {
   display: flex;
   justify-content: space-between;
   width: 200px;

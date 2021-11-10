@@ -19,7 +19,7 @@
   height: 700px;
 }
 
-#work_content {
+.work_content {
   display: flex;
   flex-direction: column;
 }
@@ -38,7 +38,7 @@
   font-weight: 400;
 }
 
-#work_info {
+.work_info {
   color: rgba(23, 43, 77, 1);
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -55,7 +55,7 @@
   margin-left: 16px;
 }
 
-#P_language {
+.P_language {
   display: grid;
   grid-template-columns: 5fr 4fr 8fr;
   gap: 9px;
@@ -81,7 +81,7 @@
   height: 40px;
 }
 
-#P_button {
+.P_button {
   background-color: rgba(255, 255, 255, 1);
   color: rgba(57, 109, 242, 1);
   font-family: "Poppins", sans-serif;
@@ -119,13 +119,13 @@
   background-color: blue;
 }
 
-#P_button:hover {
+.P_button:hover {
   background-color: rgba(96, 112, 255, 1);
   cursor: pointer;
   color: white;
 }
 
-#P_button:active {
+.P_button:active {
   background-color: blue;
 }
 
