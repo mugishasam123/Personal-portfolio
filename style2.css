@@ -248,6 +248,22 @@
     color: black;
     font-size: 25px;
   }
+  .description {
+    margin: 0 1.5rem;
+    margin-bottom: 5.2rem;
+    display:grid;
+    gap:7px;
+    width: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+  .muta{
+      grid-column:1/5;
+  }
+  .eri{
+    grid-column:8/10;
+    grid-row:1/5;
+  }
 
   .nav-logo:active {
     color: pink;
@@ -255,6 +271,27 @@
 }
 
 @media only screen and (max-width: 992px) {
+  description {
+    margin: 0 1.5rem;
+    margin-bottom: 5.2rem;
+
+    width: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+  .popup {
+    display: flex;
+    border-radius: 2vw;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+  }
+  #popup-text {
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
   .shapo {
     padding-top: 44px;
     padding-left: 100px;
