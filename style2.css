@@ -112,6 +112,16 @@
     margin-left: 90px;
   }
 
+  .cedro:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    color: white;
+  }
+
+  .cedro:active {
+    background-color: blue;
+  }
+
   .kitiyo {
     width: 12px;
     height: 6px;

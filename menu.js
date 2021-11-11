@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 const hamb = document.querySelector('.hamburger');
 const closebt = document.querySelector('.close');
 const first = document.querySelector('#intro');
@@ -16,6 +17,19 @@ const technologiesList = document.querySelector('.popup-skills');
 const popupDetails = document.querySelector('.popup-details');
 const liveUrl = document.getElementById('live-url');
 const sourceUrl = document.getElementById('source-url');
+const fomur = document.getElementById('fomu');
+const error = document.querySelector('.error-message');
+const email = document.getElementById('masu');
+// eslint-disable-next-line no-unused-vars
+fomur.addEventListener('submit', (Event) => {
+  if (email.value.match(/[A-Z]/g)) {
+    error.style.display = 'flex';
+    Event.preventDefault();
+  } else {
+    fomur.submit();
+  }
+});
+
 const projects = [{
   name: 'Tonic',
   details: ['CANOPY', '•', 'Back End Dev', '•', '2015'],

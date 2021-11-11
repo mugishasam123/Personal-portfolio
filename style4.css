@@ -1,3 +1,10 @@
+.error-message {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  display: none;
+}
 
 .popup-container {
   position: fixed;
