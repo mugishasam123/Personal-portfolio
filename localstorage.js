@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-multi-spaces */
-const fullname = document.getElementById('fullname');
+ fullname = document.getElementById('fullname');
 const emaila = document.getElementById('masu');
 const comment = document.getElementById('comant');
 const forminput = {
