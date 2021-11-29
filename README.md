@@ -1,15 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Portfolio
 
-> One paragraph statement about the project.
+>this is the desktop version of my portfolio wesite
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+this desktop version of my portfolio contains also mobile version .
 
 ## Built With
-
 
 - Major languages
 - Frameworks
@@ -22,39 +21,20 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+No setup
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/mugishasam123)
+- Twitter: [@twitterhandle](https://twitter.com/mugishasamuel42/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugisha-samuel-55a905208/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -74,4 +54,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT] licensed.
