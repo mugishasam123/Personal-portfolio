@@ -21,6 +21,7 @@ emaila.addEventListener('input', () => {
 });
 comment.addEventListener('input', () => {
   forminput.comments = comment.value;
+  savedata();
 });
 
 function updatepage() {
