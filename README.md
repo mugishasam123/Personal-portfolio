@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Portfolio
 
-> One paragraph statement about the project.
+>  this is the desktop version of my portfolio wesite.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+this desktop version of my portfolio contains also mobile version.
 
 ## Built With
 
