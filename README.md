@@ -19,6 +19,13 @@ this desktop version of my portfolio contains also mobile version .
 
 [Live Demo Link](https://mugishasam123.github.io/desktop-vesrion-portfolio/)
 
+To get a local copy up and running follow these simple example steps.
+
+```
+-clone the repo in a folder in  your local machine using **git clone command**
+-pull the files from origin/master using **git pull command**
+-run the index.html in any browser to get output of the project
+```
 
 ## Getting Started
 
