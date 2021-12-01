@@ -8,6 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @media (min-width: 992px) {
+  .content {
+    position: absolute;
+    top: 130px;
+    left:100px;
+  }
   .img-b img:hover {
     animation: zoominoutsinglefeatured 1s;
   }
