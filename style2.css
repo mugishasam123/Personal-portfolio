@@ -11,8 +11,9 @@
   .content {
     position: absolute;
     top: 130px;
-    left:100px;
+    left: 100px;
   }
+
   .img-b img:hover {
     animation: zoominoutsinglefeatured 1s;
   }
