@@ -6,7 +6,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-this desktop version of my portfolio contains also mobile version .
+this desktop version of my portfolio contains also mobile version 
 
 ## Built With
 
