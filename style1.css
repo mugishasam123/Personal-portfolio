@@ -48,7 +48,8 @@
 }
 
 .work_project p {
-  font-size: 16px;
+  font-size: 17px;
+  /**put comment**/
   color: #fff;
   line-height: 2;
   font-weight: 400;
