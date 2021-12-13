@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-multi-spaces */
 const fullname = document.getElementById('fullname');
 const emaila = document.getElementById('masu');
 const comment = document.getElementById('comant');
@@ -25,7 +23,7 @@ comment.addEventListener('input', () => {
 });
 
 function updatepage() {
-  const getdata =  JSON.parse(localStorage.getItem('forma'));
+  const getdata = JSON.parse(localStorage.getItem('forma'));
   fullname.value = getdata.names;
   emaila.value = getdata.email;
   comment.value = getdata.comments;
