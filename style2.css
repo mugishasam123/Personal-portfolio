@@ -318,7 +318,7 @@ and (max-width: 992px)
 and (min-width: 320px)
 {
  body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
   .popup-skill {
     color: #0019fa;
