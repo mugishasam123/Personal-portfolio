@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @media (min-width: 992px) {
+  html {
+    overflow-x: hidden;
+  }
   .content {
     position: absolute;
     top: 130px;
@@ -311,6 +314,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  html {
+    overflow-x: hidden;
+  }
   .popup-skill {
     color: #0019fa;
     background-color: #ebebff;
@@ -511,6 +517,4 @@ a {
   text-decoration: none;
 }
 
-html {
-  overflow-x: hidden;
-}
+
