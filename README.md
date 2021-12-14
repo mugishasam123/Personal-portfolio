@@ -1,7 +1,5 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # My Portfolio
-
+# My Portfolio
 > this is the desktop version of my portfolio wesite.
 
 ![screenshot](./app_screenshot.png)
