@@ -14,7 +14,7 @@
   .content {
     position: absolute;
     top: 130px;
-    left: 100px;
+    left: 130px;
   }
 
   .img-b img:hover {
@@ -41,6 +41,7 @@
     height: 0;
   }
 
+
   .popup {
     display: flex;
     border-radius: 2vw;
@@ -62,6 +63,7 @@
     letter-spacing: 0.03em;
     margin-right: 8px;
   }
+
 
   .titl {
     margin-left: 20px;
@@ -99,7 +101,8 @@
     width: 100%;
     height: 846px;
     background: url("images/hi.png");
-    background-size: 1440px 846px;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(96, 112, 255, 1);
   }
@@ -167,24 +170,36 @@
     padding-left: 3px;
   }
 
+  .dodo {
+    padding-bottom: 20px;
+   text-align: center;
+  }
+
   .orient {
-    position: relative;
-    left: 560px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+  }
+  
+  .contact-container {
+    width: 100%;
+    background-color: white;
   }
 
   #intro {
-    width: 100%;
+    overflow-x: hidden;
     height: 916px;
     background: url("images/bga.png");
-    background-size: 1397.4px 721.46px;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 150px;
-    padding-left: 210px;
     background-color: white;
     margin-top: 56px;
-    margin-left: 120px;
-    margin-right: 0;
+    border-bottom-left-radius: 100px;
+
   }
 
   .work_content {
@@ -209,10 +224,6 @@
     height: 448px;
     padding-top: 24px;
     padding-left: 24px;
-  }
-
-  .hugo {
-    background-color: white;
   }
 
   #work {
@@ -314,23 +325,7 @@
   }
 }
 
-@media only screen 
-and (max-width: 992px)
-and (min-width: 320px)
-{
- body {
-    overflow-x: hidden !important;
-  }
-  .popup-skill {
-    color: #0019fa;
-    background-color: #ebebff;
-    border-radius: 8px;
-    padding: 4px 12px;
-    font-weight: 50;
-    font-size: 13px;
-    margin-right: 8px;
-  }
-
+@media only screen and (max-width: 992px) {
   .description {
     margin: 0 1.5rem;
     margin-bottom: 5.2rem;
@@ -370,13 +365,23 @@ and (min-width: 320px)
     gap: 1rem;
   }
 
-  .work_content {
-    width: 500px;
+  .carte {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background: white;
+    border-style: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 10px;
   }
 
-  .carte {
-    width: 700px;
-    height: 500px;
+  .img-b {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
   }
 
   .fazi {
@@ -385,18 +390,19 @@ and (min-width: 320px)
   }
 
   .valu {
-    width: 375px;
+    max-width: 100%;
+    text-align: center;
   }
 
   #intro {
-    width: 375px;
-    margin: auto;
-    height: 630px;
-    position: relative;
-    padding-top: 40px;
-    background: url("images/ikon.png");
-    background-size: cover;
+    height: 800px;
+    background: url("images/header_section_background.png");
+    background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    background-color: white;
+    margin-top: 56px;
+    border-bottom-left-radius: 100px;
   }
 
   .nav-logo {
@@ -437,21 +443,10 @@ and (min-width: 320px)
   }
 
   .contact-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 375px;
     background: rgba(96, 112, 255, 1) url("images/contact-form-shapes-mobile.png") 100% 60% no-repeat;
-    border-radius: 100px 0 0 0;
-    height: 860px;
-    padding-left: 24px;
-    padding-top: 140px;
-    margin: 0 auto;
-    margin-bottom: 8px;
   }
 
   nav {
-    width: 375px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -522,4 +517,55 @@ a {
   text-decoration: none;
 }
 
+html {
+  background-color: #e5e5e5;
+}
 
+.hugo {
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-me {
+  width: 100%;
+  height: 846px;
+ 
+}
+
+.orient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dodo {
+  padding-bottom: 20px;
+  text-align: center;
+  width: 70%
+}
+
+.about-me {
+  width: 100%;
+  background-color: white;
+  border-radius: 0 100px 0 0;
+  padding-top: 50px;
+}
+
+.vava {
+  width: 80%;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.kevin {
+  padding-top: 20px;
+}
+
+.contact-container {
+  background-color: white;
+}
+
+.close-popup {
+  float: right;
+}
