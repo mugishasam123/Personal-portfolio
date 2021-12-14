@@ -21,7 +21,14 @@ const fomur = document.getElementById('fomu');
 const error = document.querySelector('.error-message');
 const email = document.getElementById('masu');
 
-
+fomur.addEventListener('submit', (Event) => {
+  if (email.value.match(/[A-Z]/g)) {
+    error.style.display = 'flex';
+    Event.preventDefault();
+  } else {
+    fomur.submit();
+  }
+});
 
 const projects = [{
   name: 'Tonic',
