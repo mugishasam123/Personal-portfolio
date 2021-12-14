@@ -1,8 +1,5 @@
-
-
-<<<<<<< desktop-version
 # My Portfolio
-
+# My Portfolio
 > this is the desktop version of my portfolio wesite.
 
 ![screenshot](./app_screenshot.png)
@@ -60,5 +57,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-=======
->>>>>>> main

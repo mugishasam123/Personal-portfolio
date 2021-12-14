@@ -34,7 +34,7 @@
   text-align: center;
   font-family: "Crete Round", sans-serif;
   margin-top: 120px;
-  font-size: 40px;
+  font-size: 41px;
   font-weight: 400;
 }
 
@@ -48,7 +48,9 @@
 }
 
 .work_project p {
-  font-size: 16px;
+  font-size: 17px;
+
+  /**  put comment  **/
   color: #fff;
   line-height: 2;
   font-weight: 400;
@@ -61,6 +63,7 @@
   gap: 9px;
   width: 200px;
   height: 24px;
+  margin-top: 10px;
 }
 
 .click {
@@ -92,7 +95,8 @@
   font-weight: 500;
   width: 124px;
   height: 48px;
-  margin: 10px 0 0 0;
+  margin-left: 0;
+  margin-top: 15px;
 }
 
 .resume {
@@ -149,7 +153,7 @@
   color: #fff;
   font-family: "Crete Round", sans-serif;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 31px;
   margin-left: 16px;
 }
 
@@ -368,7 +372,6 @@
   background: rgba(96, 112, 255, 1) url("images/contact-form-shapes-mobile.png") 100% 60% no-repeat;
   border-radius: 100px 0 0 0;
   height: 779px;
-  padding-left: 24px;
   padding-top: 140px;
 }
 
@@ -385,7 +388,7 @@
 input {
   width: 327px;
   height: 48px;
-  border-radius: 8px;
+  border-radius: 2px;
   border: none;
   padding-left: 14px;
   color: rgba(23, 43, 77, 1);
@@ -399,7 +402,7 @@ textarea {
   width: 327px;
   height: 170px;
   padding-left: 14px;
-  border-radius: 8px;
+  border-radius: 2px;
   color: rgba(179, 186, 197, 1);
   border: none;
   font-weight: 400;
@@ -456,9 +459,4 @@ textarea {
 
 .cedro:active {
   background-color: pink;
-}
-
-input:invalid,
-textarea:invalid {
-  border: 2px solid red;
 }
