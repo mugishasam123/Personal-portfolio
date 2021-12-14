@@ -11,7 +11,7 @@
   .content {
     position: absolute;
     top: 130px;
-    left: 100px;
+    left: 130px;
   }
 
   .img-b img:hover {
@@ -95,7 +95,8 @@
     width: 100%;
     height: 846px;
     background: url("images/hi.png");
-    background-size: 1440px 846px;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(96, 112, 255, 1);
   }
@@ -108,6 +109,7 @@
   .valu {
     width: 0;
   }
+
 
   body {
     background-color: #e5e5e5;
@@ -163,24 +165,43 @@
     padding-left: 3px;
   }
 
+  .dodo {
+    padding-bottom: 20px;
+   text-align: center;
+  }
+
   .orient {
-    position: relative;
-    left: 560px;
+    /* position: relative;
+    left: 560px; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+  }
+  
+  .contact-container {
+    width: 100%;
+    background-color: white;
   }
 
   #intro {
-    width: 100%;
+    /* width: 100%; */
+    overflow-x: hidden;
     height: 916px;
     background: url("images/bga.png");
-    background-size: 1397.4px 721.46px;
+    background-position: center;
+    background-size: contain;
+    /* background-size: 1397.4px 721.46px; */
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 150px;
-    padding-left: 210px;
+    /* padding-top: 150px;
+    padding-left: 210px; */
     background-color: white;
     margin-top: 56px;
-    margin-left: 120px;
-    margin-right: 0;
+    /* padding-right: 120px; */
+    border-bottom-left-radius: 100px;
+
   }
 
   .work_content {
@@ -208,7 +229,7 @@
   }
 
   .hugo {
-    background-color: white;
+    /* background-color: white; */
   }
 
   #work {
@@ -310,6 +331,8 @@
   }
 }
 
+/*** MOBILE START ***/
+
 @media only screen and (max-width: 992px) {
   .popup-skill {
     color: #0019fa;
@@ -360,12 +383,32 @@
   }
 
   .work_content {
-    width: 500px;
+    /* width: 500px; */
+    
+    /**This is the width causing your overflow*/
+  }
+  
+  .work_main {
+    /* background-color: white; */
   }
 
   .carte {
-    width: 700px;
-    height: 500px;
+    /* width: 700px; */
+    /* height: 500px; */
+    height: auto;
+    background: white;
+    border-style: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .img-b {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
   }
 
   .fazi {
@@ -374,7 +417,8 @@
   }
 
   .valu {
-    width: 375px;
+    max-width: 100%;
+    text-align: center;
   }
 
   #intro {
@@ -426,21 +470,19 @@
   }
 
   .contact-me {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 375px;
+    justify-content: center; */
+    /* width: 375px; */
     background: rgba(96, 112, 255, 1) url("images/contact-form-shapes-mobile.png") 100% 60% no-repeat;
-    border-radius: 100px 0 0 0;
-    height: 860px;
-    padding-left: 24px;
-    padding-top: 140px;
-    margin: 0 auto;
-    margin-bottom: 8px;
+    /* border-radius: 100px 0 0 0; */
+    /* height: 860px; */
+    /* padding-left: 24px; */
+    /* padding-bottom: 100px; */
   }
 
   nav {
-    width: 375px;
+    /* width: 375px; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -513,4 +555,13 @@ a {
 
 html {
   overflow-x: hidden;
+  background-color: #e5e5e5;
+
+}
+
+.hugo {
+  width: 100%;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  padding-bottom: 100px;
 }
