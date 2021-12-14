@@ -421,8 +421,7 @@
     text-align: center;
   }
 
-  #intro {
-    width: 375px;
+  /* #intro {
     margin: auto;
     height: 630px;
     position: relative;
@@ -430,6 +429,24 @@
     background: url("images/ikon.png");
     background-size: cover;
     background-repeat: no-repeat;
+  } */
+
+  #intro {
+    /* width: 100%; */
+    overflow-x: hidden;
+    height: 916px;
+    background: url("images/header_section_background.png");
+    background-size: contain;
+    /* background-size: 1397.4px 721.46px; */
+    background-repeat: no-repeat;
+    position: relative;
+    /* padding-top: 150px;
+    padding-left: 210px; */
+    background-color: white;
+    margin-top: 56px;
+    /* padding-right: 120px; */
+    border-bottom-left-radius: 100px;
+  
   }
 
   .nav-logo {
@@ -553,15 +570,56 @@ a {
   text-decoration: none;
 }
 
-html {
-  overflow-x: hidden;
-  background-color: #e5e5e5;
 
+html {
+  background-color: #e5e5e5;
 }
 
 .hugo {
-  width: 100%;
   background-color: white;
   border-bottom-left-radius: 100px;
   padding-bottom: 100px;
 }
+
+.contact-me {
+  width: 100%;
+  height: 846px;
+ 
+}
+
+.orient {
+  /* position: relative;
+  left: 560px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dodo {
+  padding-bottom: 20px;
+  text-align: center;
+  width: 70%
+}
+
+.about-me {
+  width: 100%;
+  background-color: white;
+  border-radius: 0 100px 0 0;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.vava {
+  width: 80%;
+}
+
+.kevin {
+  padding-top: 20px;
+}
+
+.contact-container {
+  background-color: white;
+}
+
+
+
