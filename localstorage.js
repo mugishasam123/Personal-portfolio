@@ -13,7 +13,7 @@ fullname.addEventListener('input', () => {
   forminput.names = fullname.value;
   savedata();
 });
-emaila.addEventListener('input', () => {
+emaila.EventListener('input', () => {
   forminput.email = emaila.value;
   savedata();
 });
