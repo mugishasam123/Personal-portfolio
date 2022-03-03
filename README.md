@@ -5,7 +5,7 @@
 ![screenshot](./app_screenshot.png)
 
 
-[Live Demo](https://mugishasam123.github.io/todoList-Javascript/)
+[Live Demo](https://mugishasam123.github.io/desktop-vesrion-portfolio/)
 
 ## Built With
 
