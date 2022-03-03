@@ -1,34 +1,55 @@
-# My Portfolio
-# My Portfolio
-> this is the desktop version of my portfolio wesite.
+![](https://img.shields.io/badge/Portfolio-blue)
+# Portfolio
+> Portfolio is an app that allows you to showcase your different projects and provide a place where people can have chat with you.
 
 ![screenshot](./app_screenshot.png)
 
-this desktop version of my portfolio contains also mobile version 
+
+[Live Demo](https://mugishasam123.github.io/todoList-Javascript/)
 
 ## Built With
 
+- Major languages (JavaScript)
+- Technologies/tools used 
 
-- Major languages
-- Frameworks
-- Technologies used
+  
+  ``` bash
+  
+  - Git(version control)
+  - ESLint(JavaScript linting)
+  - Stylelint(style linting)
 
-## Live Demo
+  ```
 
-[Live Demo Link](https://mugishasam123.github.io/desktop-vesrion-portfolio/)
-
-To get a local copy up and running follow these simple example steps.
-
-```
--clone the repo in a folder in  your local machine using **git clone command**
--pull the files from origin/master using **git pull command**
--run the index.html in any browser to get output of the project
-```
 
 ## Getting Started
 
-### Setup
-**N/A
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+### Usage
+#### Clone this repository
+
+```bash
+$ git clone https://github.com/mugishasam123/Personal-portfolio
+.git
+$ cd Personal-portfolio
+
+```
+#### Run project
+
+```bash
+$ npm install
+$ npm start # this will open it in the browser and enable hot reloading
+```
+
+  <br>
+
+
 ## Authors
 
 👤 **Author**
@@ -42,7 +63,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mugishasam123/Personal-portfolio/issues).
 
 ## Show your support
 
@@ -53,7 +74,6 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
