@@ -5,7 +5,7 @@
 ![screenshot](./images/app_screenshot.png)
 
 
-[Live Demo](https://mugishasam123.github.io/desktop-vesrion-portfolio/)
+[Live Demo](https://portfolio40.netlify.app/)
 
 ## Built With
 
