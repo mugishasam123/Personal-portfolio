@@ -2,7 +2,7 @@
 # Portfolio
 > Portfolio is an app that allows you to showcase your different projects and provide a place where people can have chat with you.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/app_screenshot.png)
 
 
 [Live Demo](https://mugishasam123.github.io/desktop-vesrion-portfolio/)
